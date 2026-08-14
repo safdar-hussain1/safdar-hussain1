@@ -1,6 +1,6 @@
 # Hi, I'm Safdar Hussain
 
-I build end-to-end products in Hyderabad, India — machine learning, computer vision, and full applications — and I publish them with measured results. Everything below runs live in your browser, on your device, and every headline claim in a README is backed by a test you can run.
+I am a Computer Science grad and I build end-to-end products using these technologies — machine learning, computer vision, and full applications — and I publish them with measured results. Everything below runs live in your browser, on your device, and every headline claim in a README is backed by a test you can run.
 
 ## Projects
 
