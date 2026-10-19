@@ -2,6 +2,8 @@
 
 I'm a computer science graduate. I build end-to-end products — machine learning, computer vision and full applications — and I publish them with measured results. Every project below has a live page you can open, most of them running entirely on your own device, and every headline claim in a README is backed by a test you can run.
 
+**Everything below also runs live on one page: [safdar-hussain1.github.io](https://safdar-hussain1.github.io/)** — press *Use it here* on any project and it opens inside the page.
+
 ## Projects
 
 **[WardOS](https://github.com/safdar-hussain1/wardos)** — a hospital management system that runs entirely in the browser. Real SQLite (WASM), 32 beds, six months of history, an event-sourced audit log, and a time machine that replays the hospital to any moment. Zero server; nothing leaves your device. Double-booking a bed is impossible by schema, money is integer paise end to end, and 343 tests mutation-test every headline claim.
