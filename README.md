@@ -2,7 +2,7 @@
 
 I'm a computer science graduate. I build end-to-end products — machine learning, computer vision and full applications — and I publish them with measured results. Every project below has a live page you can open, most of them running entirely on your own device, and every headline claim in a README is backed by a test you can run.
 
-**Everything below also runs live on one page: [safdar-hussain1.github.io](https://safdar-hussain1.github.io/)** — on a desktop it is a small night city where each project is a building with its page on the facade; press *Use it here* on any project and the real app opens inside the page.
+**Everything below also runs live on one page: [safdar-hussain1.github.io](https://safdar-hussain1.github.io/)** — press *Use it here* on any project and the real app opens inside the page, or open [the 3D city](https://safdar-hussain1.github.io/city/), where each project is a building with its page on the facade.
 
 ## Projects
 
