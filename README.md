@@ -15,6 +15,9 @@ I'm a computer science graduate. I build end-to-end products — machine learnin
 **[TrafficLens](https://github.com/safdar-hussain1/trafficlens)** — traffic counting from one camera. Draw a gate and it counts what crosses it, by class and by direction, and estimates speed only where the camera is calibrated — otherwise it returns no speed rather than a number it can't back. The same engine runs as a Python package and in the browser, where YOLO11 runs on your own machine through ONNX Runtime Web. On hand-labelled footage the gate rule scores F1 0.91–0.94 whichever tracker feeds it, while the common band and per-frame rules collapse below 0.12: the counting rule matters more than the tracker.
 → [Count some traffic](https://safdar-hussain1.github.io/trafficlens/)
 
+**[Sightline](https://github.com/safdar-hussain1/sightline)** — a steering model you can watch drive. A compact two-frame network, SightlineNet, trained in PyTorch next to PilotNet, runs in your browser on recorded road footage: its wheel turns beside the driver's, and a VisualBackProp saliency map from the same ONNX graph shows where it looked. The evaluation is the point. On the same held-out frames, a shuffled test split makes the same kind of model look about 3× better than it is (3.0× SightlineNet, 3.2× PilotNet). SightlineNet beats always steering straight on every honest test, in every seed, a drive from another day included; the single-frame models don't reliably manage that. While the clip plays, the page checks its own angles against Python's, and a mutation battery breaks each published claim to check that a test notices.
+→ [Watch it drive](https://safdar-hussain1.github.io/sightline/)
+
 **[Red Light, Green Light](https://github.com/safdar-hussain1/red-light-green-light-cv)** — a computer-vision referee for the Squid Game challenge. Point a camera at the players: it finds everyone, tracks them, and calls out whoever moves on red light. Playable in your browser with your webcam, everything on-device, and the same scoring kernel runs bit-for-bit in Python — the live page re-verifies its own fixtures.
 → [Play it](https://safdar-hussain1.github.io/red-light-green-light-cv/)
 
@@ -31,7 +34,7 @@ I'm a computer science graduate. I build end-to-end products — machine learnin
 
 The pattern across all of these: measure, don't claim. Benchmarks against naive baselines, mutation tests that break a mechanism and check a test fails, honest negative results published next to the wins, and browser demos that run the real model — not a video of it.
 
-**Stack:** Python (scikit-learn, XGBoost, OpenCV, YOLO, MediaPipe, pytest) · TypeScript/JavaScript (React, sql.js, WebGL2, ONNX Runtime Web, Vitest) · Java 21 (Maven, JUnit) · SQLite · GitHub Actions
+**Stack:** Python (PyTorch, scikit-learn, XGBoost, OpenCV, YOLO, MediaPipe, pytest) · TypeScript/JavaScript (React, sql.js, WebGL2, ONNX Runtime Web, Vitest) · Java 21 (Maven, JUnit) · SQLite · GitHub Actions
 
 ## Find me
 
